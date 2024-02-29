@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Borel&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Borel&family=Sono:wght@200..800&display=swap" rel="stylesheet">
+  <title>Blog Gabriela</title>
+</head>
+
+<body>
+  <header class="header container">
+    <a class="titulo-header" href="index.html">Gabriela Bueno</a>
+    <nav aria-label="navegação primaria">
+      <ul class="header-nav">
+        <li><a href="./">Bio</a></li>
+        <li><a href="./">Loja</a></li>
+        <li><a href="./">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main container">
+    <div class="main-categoria">
+      <h2>Categorias</h2>
+      <nav aria-label="navegação categorias">
+        <ul class="nav-categoria">
+          <li><a class="botao" href="#">Poesia</a></li>
+          <li><a class="botao" href="#">Conto</a></li>
+          <li><a class="botao" href="#">Resenha</a></li>
+        </ul>
+      </nav>
+    </div>
+    <section class="main-conteudo">
+      <h2 class="section-titulo">Ultimas postagens</h2>
+      <div>
+        <ul class="main-postagens borda-fina">
+          <li>
+            <h3 class="postagens-titulo">Da Realidade Sucumbida <span>Poesia</span></h3>
+            <p class="postagens-trecho">A proeminência do meu ser não chega à superficie. Não excede a marca delimitada da água escura. Salgada e estagnada.</p>
+            <a class="postagens-link botao" href="#">ler mais</a>
+          </li>
+          <li>
+            <h3 class="postagens-titulo ">Tempestade Prolixa <span>Poesia</span></h3>
+            <p class="postagens-trecho"> Temporal de sentimentos.Inundados.Perdeu-se em alto-mar.</p>
+            <a class="postagens-link botao" href="#">ler mais</a>
+          </li>
+          <li>
+            <h3 class="postagens-titulo">No monocromático do Oceano <span>Poesia</span></h3>
+            <p class="postagens-trecho"> Linhas retilíneas refletem o líquido azulado. Que se rompe junto da equidade social. Na busca infinita que nasce do peito. Por um barco tangível.</p>
+            <a class="postagens-link botao" href="#">ler mais</a>
+          </li>
+          <li>
+            <h3 class="postagens-titulo">Marujo Marinheiro Disfarçado <span>Poesia</span></h3>
+            <p class="postagens-trecho"> O marinheiro chegou. Senti minha alma partir do corpo. Ela procurou por um espaço que lhe coubesse.</p>
+            <a class="postagens-link botao" href="#">ler mais</a>
+          </li>
+          <li>
+            <h3 class="postagens-titulo">Marujo Marinheiro Disfarçado <span>Poesia</span></h3>
+            <p class="postagens-trecho"> O marinheiro chegou. Senti minha alma partir do corpo. Ela procurou por um espaço que lhe coubesse.</p>
+            <a class="postagens-link botao" href="#">ler mais</a>
+          </li>
+        </ul>
+      </div>
+      <aside class="main-biografia borda-fina">
+        <img src="./assets/img/Foto-Perfil.jpg" alt="Foto perfil">
+        <p>Gabriela Queiroz nasceu em 1998 na cidade de Curitiba, é escritora e acadêmica de Letras. Autora do livro “Na Consciência da Natureza que Me Compõe” publicado em 2023 pela Mondru Editora. Trabalha com edição de livros e leitura crítica. “Atos remotos no inverso de mim” é o seu segundo livro publicado. </p>
+      </aside>
+      <a href="#">Ver todos</a>
+    </section>
+  </main>
+  <footer class="footer-background">
+    <div class="footer-container container">
+      <div class="footer-contato">
+        <h2>Contato</h2>
+        <div class="contato">
+          <ul>
+            <li><a href="https://www.instagram.com/gabiequeiroz">@gabiequeiroz</a></li>
+            <li>41 9 8792-6218</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-email">
+        <h2>Email</h2>
+        <form class="email" action="https://formsubmit.co/ajax/alexferreiraphoto@gmail.com" method="POST" data-form>
+          <label for="nome" name="nome" id="nome">Nome:</label>
+          <input type="text" name="nome" id="nome" required>
+
+          <label for="email" name="email">Email:</label>
+          <input type="email" name="email" id="email" required>
+
+          <label for="texto" name="texto" id="texto">Digite aqui:</label>
+          <textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+
+          <button type="submit" class="botao" data-button>enviar</button>
+        </form>
+      </div>
+
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

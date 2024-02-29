@@ -1,0 +1,105 @@
+.main {
+  padding: 40px 0px;
+}
+.main-categoria {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 50px 40px 0px;
+  align-items: center;
+}
+
+.main-categoria h2 {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+.nav-categoria {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.nav-categoria a {
+  border: 1px solid #1c1c1c;
+  transition: 0.3s;
+}
+
+.nav-categoria a:hover {
+  background: #1c1c1c;
+  color: #fffafa;
+}
+
+.main-conteudo {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 0px 50px;
+  align-content: start;
+}
+
+.main-conteudo h2 {
+  grid-column: 1/-1;
+  margin-bottom: 20px;
+}
+
+.main-conteudo > a {
+  margin-top: 10px;
+  text-align: center;
+  display: inline-block;
+  place-self: center;
+  padding: 10px;
+}
+
+.main-conteudo > a::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 1px;
+  background-color: #1c1c1c;
+  transition: 0.3s;
+}
+
+.main-conteudo > a:hover::after {
+  width: 100%;
+}
+
+.section-titulo {
+  padding-bottom: 20px;
+  border-bottom: solid 1px #1c1c1c;
+}
+
+.main-postagens li {
+  padding: 20px;
+  border-bottom: solid 1px #1c1c1c;
+}
+
+.postagens-titulo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.postagens-titulo span {
+  font-weight: normal;
+}
+
+.postagens-trecho {
+  font-size: 0.875rem;
+  margin-bottom: 50px;
+}
+
+.postagens-link {
+  border: 1px solid #1c1c1c;
+  transition: 0.3s;
+  margin-bottom: 5px;
+}
+
+.postagens-link:hover {
+  background: #1c1c1c;
+  color: #fffafa;
+}
+
+.main-biografia img {
+  margin-bottom: 20px;
+}

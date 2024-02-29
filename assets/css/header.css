@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.titulo-header {
+  font-family: "Borel";
+}
+
+.header-nav {
+  display: flex;
+  gap: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.header-nav li a {
+  padding: 10px;
+}
+
+/* .header-nav a {
+  padding: 0px 10px;
+} */
+
+.header::after {
+  content: "";
+  display: block;
+  width: 1200px;
+  height: 1px;
+  background: #1c1c1c;
+  position: relative;
+  top: 0px;
+}

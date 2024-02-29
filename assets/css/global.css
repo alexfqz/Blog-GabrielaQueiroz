@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background: #fffafa;
+  color: #1c1c1c;
+  font-family: "Sono";
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  border: 0px;
+  font-family: "sono";
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+}
+
+borda-fina {
+  border: solid 1px #1c1c1c;
+}
+
+.botao {
+  font-size: 0.875rem;
+  padding: 10px;
+  border-radius: 50px;
+  transition: 0.3s;
+  display: inline-block;
+}

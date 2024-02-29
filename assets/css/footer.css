@@ -1,0 +1,96 @@
+.footer-background {
+  background-color: #1c1c1c;
+  max-width: 100%;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: #fff;
+  gap: 20px;
+}
+.footer-contato {
+  text-align: right;
+}
+.footer-contato h2 {
+  align-self: start;
+  position: relative;
+}
+
+.footer-contato h2:after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 400px;
+  background-color: #fff;
+  position: absolute;
+  right: -10px;
+  top: 100px;
+}
+
+.contato {
+  margin-top: 150px;
+}
+
+.contato li {
+  padding: 40px;
+  font-size: 2rem;
+}
+.footer-contato a {
+  color: #fff;
+}
+
+.email {
+  padding: 40px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+}
+
+.email label {
+  margin-bottom: 10px;
+  font-size: 0.875;
+  font-weight: 300;
+}
+
+.email input {
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  height: 20px;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
+.email input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+  outline: solid 1px #ff6347;
+}
+
+.email textarea {
+  border-radius: 5px;
+  min-height: 12.5rem;
+  resize: vertical;
+}
+.email button {
+  margin-top: 20px;
+  place-self: start;
+  border: 2px solid #fff;
+}
+
+.email button:hover {
+  border: 2px solid #ff6347;
+}
+
+.email input:hover,
+.nome input:hover,
+textarea:hover {
+  outline: none;
+  border: 1px solid #ff6347;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
